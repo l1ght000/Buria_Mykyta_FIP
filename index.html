@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link href="https://fonts.cdnfonts.com/css/bahnschrift" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/Bahnschrift-Font-Family.zip">
+    <script src="https://kit.fontawesome.com/273d23d9c6.js" crossorigin="anonymous"></script>
     <title>Archibald Store</title>
 </head>
 <body>
@@ -17,66 +19,75 @@
     <div class="container">
         <header id="main-header" class="grid">
             <h2 class="hidden">Main-Navigation</h2>
-            <nav class="menu-search">
-                <ul>
-                    <li><a href="#"><span class="material-symbols-outlined">
-                        menu
-                        </span>Menu</a></li>
-                    <li><a href="#"><span class="material-symbols-outlined">
-                        search
-                        </span>Search</a></li>
-                </ul>
-            </nav>
-            <nav class="gallery-signin">
-                <ul>
-                    <li><a href="#">Gallery</a></li>
+        <div class="main-menu">
+            <div id="logo">
+                <img src="img/logo.svg" alt="archibald-logo" width="589" height="90">
+            </div>
+            <nav id="main-navigation">
+                <ul class="menu">
+                    <li><a href="#"><i class="fa-solid fa-bars"></i>Menu</a></li>
+                    <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i>Search</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
                     <li><a href="#">Sign-In</a></li>
+                    <li><a href="#"><i class="fa-solid fa-bag-shopping"></i></a></li>
                 </ul>
             </nav>
-            <button class="cart">
-                <span class="material-symbols-outlined">
-                    local_mall
-                    </span>
-            </button>
+        </div>
             
 
         </header>
         <main>
             <div id="home-page-info" class="grid">
-                <h3>Archibald Store</h3>
-                <h3>Luxury store of clothes for all genders.</h3>
+               <div class="name-store"> <h2>Archibald Store</h2>
+                <h4>Luxury store of clothes for all genders.</h4>
+                
                 <p>Afficitur sit amet. Proin nec cursus nulla. Vivamus mattis erat bibendum est ornare, nec tempor diam pellentesque. Curabitur aliquet tincidunt pulvinar. Curabitur elit orci, blandit auctor fringilla quis, tempor dapibus enim. Mauris pharetra metus ut metus vehicula volutpat. Nulla vel iaculis elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam consectetur neque nulla, vel vulputate nisi varius a. Vestibulum sit amet libero eget eros mattis pellentesque.</p>
-                <div class="button-shopnow">
-                    <button>Shop Now</button>
-                </div>
-                <img src="img/home-page.png" alt="home-page-hero" width="960" height="839">
+                
+                   
+                
+                
+            </div>
+                <div class="hero-image">
+                <img src="img/home-page.png" alt="home-page-hero" width="600" height="525"></div>
+                <button id="shopnow">Shop Now</button>
             </div>
             <div class="bestsellers-and-team">
                 <h2>BEST SELLERS</h2>
-                <img src="img/best-seller-1.png" alt="best-seller-1" width="536" height="449">
+                
+                <div class="bestseller-1">
+                <img src="img/best-seller-1.png" alt="best-seller-1" width="428" height="359"></div>
+                <div class="bestseller-2">
+                    <img src="img/best-seller-3.png" alt="best-seller-2" width="428" height="359"></div>
+                    <div class="bestseller-3">
+                        <img src="img/best-seller-2.png" alt="best-seller-3" width="428" height="359"></div>
+                
+                        <div id="text-seller1">
                 <h4 class="bestseller">Bestseller</h4>
                 <h3 class="clothes">Men's T-Shirt</h3>
                 <h3 class="price">115$</h3>
                 
-                <img src="img/best-seller-3.png" alt="best-seller-1" width="536" height="449">
+                <div id="text-seller2">
                 <h4 class="bestseller">Bestseller</h4>
-                <h3 class="clothes">Men's Jacket</h3>
-                <h3 class="price">1100$</h3>
+                <h3 class="clothes2">Men's Jacket</h3>
+                <h3 class="price2">1100$</h3></div>
                 
-                <img src="img/best-seller-2.png" alt="best-seller-1" width="536" height="449">
+                <div id="text-seller3">
                 <h4 class="bestseller">Bestseller</h4>
-                <h3 class="clothes">Men's Jacket</h3>
-                <h3 class="price">250$</h3>
-                <h2>OUR TEAM</h2>
+                <h3 class="clothes3">Men's Jacket</h3>
+                <h3 class="price3">250$</h3></div>
+            
+                <h2 id="team">OUR TEAM</h2>
             </div>
-            <div class="our-team">
+            <div id="our-team" class="grid">
                 <h3>About Our Proffesional Team Members</h3>
                 <p>Afficitur sit amet. Proin nec cursus nulla. Vivamus mattis erat bibendum est ornare, nec tempor diam pellentesque. Curabitur aliquet tincidunt pulvinar. Curabitur elit orci, blandit auctor fringilla quis, tempor dapibus enim. Mauris pharetra metus ut metus vehicula volutpat. Nulla vel iaculis elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam consectetur neque nulla, vel vulputate nisi varius a. Vestibulum sit amet libero eget eros mattis pellentesque.</p>
-                <img src="img/avatar-1.svg" alt="avatar-1">
-                <img src="img/avatar-2.svg" alt="avatar-2">
-                <img src="img/avatar-3.svg" alt="avatar-3">
-                <img src="img/avatar-4.svg" alt="avatar-4">
+                <img src="img/avatar-1.svg" alt="avatar-1" width="233" height="233" id="avatar1">
+                <img src="img/avatar-2.svg" alt="avatar-2" width="166" height="166" id="avatar2">
+                <img src="img/avatar-3.svg" alt="avatar-3" width="233" height="233" id="avatar3">
+                <img src="img/avatar-4.svg" alt="avatar-4" width="166" height="166" id="avatar4">
+                <button id="aboutteam">Read More</button>
             </div>
+            
             <div class="contact">
                 <h2 class="hidden">Contact Information and Form</h2>
                 <section>
@@ -93,22 +104,39 @@
                     </p>
                 </section>
 
-                <section>
-                    <h3 class="hidden">Contact Us Form</h3>
-                    <form action="email.php" method="POST" enctype="text/plain">
-                        <input name="fullName" type="text" placeholder="Name">
-                        <input name="contactInfo" type="text" required placeholder="Email">
-                        <input name="contactInfo" type="text" required placeholder="Subject">
-                        <textarea name="msg" placeholder="Enter your questions, comments or concerns here..."></textarea>
-                        <input name="submit" type="submit" value="Send">
+                <section class="contact">
+                    <form action="email.php" method="post" enctype="text/plain"  class="contact-form">
+                      <div class="col-sm-6">
+                        <div class="input-block">
+                          <input type="text" name="Name" placeholder="Name" class="form-control">
+                        </div>
+                      </div>
+                      <div class="col-sm-6">
+                        <div class="input-block">
+                          <input type="text" name="Email" placeholder="Email" class="form-control">
+                        </div>
+                      </div>
+                      <div class="col-sm-12">
+                        <div class="input-block">
+                          <input type="text" name="Subject" placeholder="Subject" class="form-control">
+                        </div>
+                      </div>
+                      <div class="col-sm-12">
+                        <div class="input-block textarea">
+                          <textarea rows="3" name="msg" placeholder="Enter Your Questions" type="text" class="form-control"></textarea>
+                        </div>
+                      </div>
+                      <div class="col-sm-12">
+                        <button class="square-button">Send</button>
+                      </div>
                     </form>
-                </section>
-
+                  </section>
+            </div>
             </div>
         </main>
         <footer>
             <h2 class="hidden">Archibald store footer</h2>
-            <nav>
+            <nav class="footer-left-nav">
                 <ul>
                     <li><a href="#">FIND A STORE</a></li>
                     <li><a href="#">BECOME A MEMBER</a></li>
@@ -118,37 +146,54 @@
             </nav>
             <nav class="footer-main-nav">
                 <h3 class="footer-text">GET HELP</h3>
-                <ul>
+                <div class="links">
+                <ul class="ul-footer-1">
                     <li><a href="#">Order Status</a></li>
                     <li><a href="#">Shipping and Delivery</a></li>
                     <li><a href="#">Returns</a></li>
                     <li><a href="#">Payment Options</a></li>
                     <li><a href="#">Contact US</a></li>
                 </ul>
-            <h3 class="footer-text">ABOUT US</h3>
-            <ul>
+            </div>
+            <h3 class="footer-text2">ABOUT US</h3>
+            <div class="links2">
+            <ul class="ul-footer-2">
                 <li><a href="#">News</a></li>
                 <li><a href="#">Careers</a></li>
                 <li><a href="#">Investors</a></li>
                 <li><a href="#">Sustainability</a></li>
             </ul>
-            <h3 class="footer-text">ACCOUNT</h3>
-            <ul>
+        </div>
+            <h3 class="footer-text3">ACCOUNT</h3>
+            <div class="links3">
+            <ul class="ul-footer-3">
                 <li><a href="#">Login</a></li>
                 <li><a href="#">Your Orders</a></li>
                 <li><a href="#">Support</a></li>
             </ul>
+        </div>
             </nav>
+            <div class="icons"><i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-square-twitter"></i></div>
             <section>
                 <h3 class="hidden">Newsletter Form</h3>
+                <div class="newsletter">
+                    
                 <form action="email.php" method="POST" enctype="text/plain">
                     <input name="contactInfo" type="text" required placeholder="Email">
-                    <input name="submit" type="submit" value="Send">
+                    
                 </form>
+                <div class="newletter-text">
+                    <h3>Newsletter - Subscribe</h3></div>
+                <button>SUBMIT</button>
+            </div>
             </section>
+            <div class="rights">
             <p><span class="material-symbols-outlined">
                 location_on
                 </span>Canada     © 2022 Archibald, Inc. All Rights Reserved</p>
+            </div>
 
         </footer>
     </div>
