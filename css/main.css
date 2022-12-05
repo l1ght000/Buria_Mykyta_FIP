@@ -27,6 +27,7 @@ input, textarea {
     margin: 0 auto;
     background-color: #fff;
     text-decoration: none;
+    box-shadow: 0px 5px 8px #888888;
 }
 .grid {
     display: grid;
@@ -269,6 +270,8 @@ form button{
     margin-left: 50px;
     margin-top: 20px;
 }
+
+/*Main part done*/
 
 footer{
     margin-top: 45px;
